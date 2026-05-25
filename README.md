@@ -86,12 +86,14 @@ pip install fastapi uvicorn sqlalchemy pyjwt bcrypt "pydantic[email]" email-vali
 cd historia1
 uvicorn main:app --reload
 ```
+Ir a la dirección `http://127.0.0.1:8000/docs` para probar los endpoints en el Swagger UI
 
 ## Historia 4
 ```bash
 cd historia4
 uvicorn main:app --reload
 ```
+Ir a la dirección `http://127.0.0.1:8000/docs` para probar los endpoints en el Swagger UI
 
 ## Historia 8
 Ejecutar el programa `main.py` de cada apartado
