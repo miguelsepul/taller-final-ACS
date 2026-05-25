@@ -57,9 +57,41 @@ Tecnologías:
 
 ---
 
-# Cómo ejecutar
+# Como preparar el entorno
 
 ## Crear entorno virtual
 
 ```bash
 python -m venv venv
+```
+## Activar entorno virtual
+```bash
+venv\Scripts\Activate.ps1
+```
+
+## Instalar dependencias
+```bash
+pip install -r requirements.txt
+```
+o 
+```bash
+pip install fastapi uvicorn sqlalchemy pyjwt bcrypt "pydantic[email]" email-validator
+```
+
+# Como ejecutar los programas
+
+## Historia 1
+
+```bash
+cd historia1
+uvicorn main:app --reload
+```
+
+## Historia 4
+```bash
+cd historia4
+uvicorn main:app --reload
+```
+
+## Historia 8
+Ejecutar el programa /main de cada apartado
