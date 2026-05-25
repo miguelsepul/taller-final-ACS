@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite
+*.db
+
+# Archivos temporales
+*.tmp
