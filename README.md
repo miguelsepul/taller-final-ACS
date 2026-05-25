@@ -94,4 +94,4 @@ uvicorn main:app --reload
 ```
 
 ## Historia 8
-Ejecutar el programa `main` de cada apartado
+Ejecutar el programa `main.py` de cada apartado
